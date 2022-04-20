@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script>
+function printwholenumber(num1){
+//var num1=10;
+//var num2=20;
+var num1=prompt("enter the first number");
+
+
+
+
+if(num1>=0){
+document.write("<h2>");
+document.writeln("num1 is a   whole   number");
+document.write("</h2");
+
+}else{
+document.write("<h2>");
+document.writeln("num1 is  not  a  whole number");
+document.write("</h2");
+}
+
+
+
+}
+
+</script>
+</head>
+<body background-color="aqua">
+<h2>print whole number</h2>
+<form name="f1">
+<input type="button" value="printwholenumber" onclick="printwholenumber()"/>
+</form>
+
+
+
+
+</body>
+</html>

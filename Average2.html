@@ -1,0 +1,23 @@
+<html>
+<head> Average Of  Numbers </head>
+<body bgcolor="cyan">
+ <h1>Student Marks </h1> <br>  
+<p id="Std1"> 10</p>
+<p id="Std2"> 15</p>
+<p id="Std3"> 25</p>
+<p id="Std4"> 40</p>
+<p id="Std5"> 28</p>
+<h2>Average Of 5 Students:</h2>
+<p id="avg">  </p>
+
+<script>
+var Std1=parseInt(document.getElementById("Std1").innerHTML);
+var Std2=parseInt(document.getElementById("Std2").innerHTML);
+var Std3=parseInt(document.getElementById("Std3").innerHTML);
+var Std4=parseInt(document.getElementById("Std4").innerHTML);
+var Std5=parseInt(document.getElementById("Std5").innerHTML);
+var average=(Std1+Std2+Std3+Std4+Std5)/5;
+document.getElementById("avg").innerHTML=average;
+</script>
+</body>
+</html>
